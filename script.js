@@ -36,8 +36,8 @@ function playRound(playerSelection, computerSelection) {
 }
 
 function game(){
-    let user_message = "Write your choice: "
+    let userMessage = "Write your choice: "
     for(let i = 0; i < 5;++i){
-        console.log(playRound(prompt(user_message),getComputerChoice()));
+        console.log(playRound(prompt(userMessage),getComputerChoice()));
     }
 }
